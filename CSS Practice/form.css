@@ -1,0 +1,20 @@
+body{
+	background-color: rgb(52, 180, 235);
+}
+
+form{
+	background-color: blue;
+	width: 400px;
+	height:400px;
+	margin-left: 40px;
+	padding-left: 60px;
+	color: red;
+}
+.box1{
+	width: 500px;
+	height: 300px;
+	border: 2px dashed red;
+	background-color: rgb(252, 48, 3);
+	color: white;
+}
+	

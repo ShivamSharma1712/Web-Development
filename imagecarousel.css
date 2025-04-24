@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	align-items: center;
+	background: black;
+	color: #fff;
+	padding: 0 60px;
+
+}
+.container{
+	display: flex;
+	position: relative;
+	flex-wrap: wrap;
+	
+
+}
+.card{
+	display: flex;
+    align-items: center;
+    position: relative;
+    width: 320px;
+    height: 400px;
+    margin: 0px 30px;
+}
+
+.card::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+	
+.card::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(45deg, #ffbc00, #ff0058);
+	filter: blur(30px);
+
+}
+.container .card:nth-child(2):after,
+.container .card:nth-child(2):before{
+	background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.container .card:nth-child(3):after,
+.container .card:nth-child(3):before{
+	background: linear-gradient(315deg, #4fff03, #00d0ff);
+}
+.container .card span{
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	left: 6px;
+	bottom: 6px;
+	background: rgba(0,0,0,0.4);
+	z-index: 1;
+
+}
+.container .card span::before{
+	content: '';
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.1);
+	pointer-events: none;
+}
+.container .card .content{
+	position: relative;
+	padding: 20px 30px;
+	z-index: 2;
+}
+.container .card .content h2{
+	font-size: 35px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+
+}
+.container.card .content p{
+	font-size: 18px;
+	line-height: 1.4em;
+}
+.container .card .content a{
+	display: inline-block;
+	padding: 17px 15px;
+	background: #fff;
+	color: black;
+	margin-top: 10px;
+	text-transform: capitalize;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.container .card .content a:hover{
+	background: transparent;
+	color:#fff;
+	border:2px solid #fff;
+}
+
+	

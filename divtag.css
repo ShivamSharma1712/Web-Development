@@ -1,0 +1,34 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.main{
+	width: 500px;
+	margin: 100px 500px 0px 500px;
+	float: left;
+	border: 3px solid grey;
+}
+h1{
+	text-align: center;
+	margin-top: 20px;
+}
+img{
+	width: 450px; 
+	margin: 20px 20px 0px 20px;
+}
+article{
+	margin: 20px; 
+	width: 450px; 
+	
+}
+  p {
+	font: italic small-caps bolder 25px/35px arial;
+}
+h2{
+	text-align: center;
+	margin-top: 20px;
+}
+p.second {
+font: italic small-caps bolder 25px/35px arial;
+}	

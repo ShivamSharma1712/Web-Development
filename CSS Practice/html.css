@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.box1{
+	border: 4px dashed green;
+	border-radius: 50%;
+	overflow: hidden;
+	width: 400px;
+	height: 300px;
+	background-color: rgb(140, 34, 179);
+
+	left: 50%;
+	top: 50%;
+	padding: 10px;
+	color: pink;
+
+}
+
+.box{
+	border: 4px dashed green;
+	width: 600px;
+	height: 400px;
+	background-color: rgb(179, 171, 34);
+	margin: 20px;
+	color: pink;
+
+
+}

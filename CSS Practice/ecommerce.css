@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	display: flex;
+	flex-direction: column;
+}
+header{
+	background: yellowgreen;
+	display: flex;
+}
+header ul{
+	list-style: none;
+}
+.logo{
+	margin:0 auto;
+
+}
+.logo img{
+	width: 100px;
+}
+
+
+

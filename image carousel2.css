@@ -1,0 +1,65 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 14px;
+	box-sizing: border-box;
+
+}
+.slider{
+	overflow: hidden;
+	position: absolute;
+	width: 40%;
+	top: 10%;
+	left: 50%;
+}
+.slider figure{
+	width: 400%;
+	position: relative;
+	margin: 0;
+	animation: animate 20s linear infinite;
+}
+@keyframes animate{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -300%;
+	}
+
+}
+
+
+
+.slider figure img{
+	width: 25%;
+	float: left;
+}
+
+.carousel-cell:before{
+	display: block;
+	content: '';
+}
+

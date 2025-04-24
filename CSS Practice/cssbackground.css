@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.box{
+	width:400px;
+	height: 400px;
+	background-color: pink;
+	transition-property: width, height, background-color; 
+	transition-duration: 2s, 2s, 2s;
+
+}
+.box:hover{
+	width: 500px;
+	height: 500px;
+	background-color: blue; 
+
+}
+
+
+
+	

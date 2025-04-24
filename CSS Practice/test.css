@@ -1,0 +1,9 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	width: 500px;
+	border: 5px dotted red;
+	margin-left: -50%;
+}

@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	width: 500px;
+	border: 5px dotted red;
+	
+	margin: 20px 0px 0px 60px;
+	/*margin: 20px 40px;
+	 margin: 20px;*/
+	 /*padding: 20px;*/
+}
+h2{
+	/*margin: 20px;*/
+	
+	/*margin:20px 0px 10px 60px;*/
+	padding: 20px;
+}
+p{
+	/*margin:20px;*/
+}
+button{
+	margin: 0px 0px 10px 20px; /* if u give top margin here then it adds with paragraph 20px margin, becomes 30px thats why 
+	right way to give margin is only give required margins ok! */
+
+}

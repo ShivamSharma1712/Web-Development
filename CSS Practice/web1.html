@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="web1.css">
+	<script src="https://kit.fontawesome.com/520e718d05.js" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	
+	<title>Document</title>
+</head>
+<body>
+	<div class="header">
+
+		<div class="logo">
+			<img class="img2" src="image/dragonball.png" width="100px">
+			<h2>TechnoGraphs</h2>
+		</div>
+		<div class="heading1">
+			<h1>WELCOME TO TECH WORLD</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor <br> sit amet consectetur adipisicing elit. Cum ipsam iste sint, nemo hic <br> vitae modi excepturi eum ad, fuga repellendus sequi provident sapiente? </p>
+			<div class="buttons">
+				<a class="a1" href="#"><span></span>Find Out</a>
+			    <a class="a1" href="#"><span></span>About Us</a>
+			</div>
+		</div>
+
+		<div class="btn">
+         <span class="fas fa-bars"></span>
+      </div>
+      <nav class="sidebar">
+         <div class="text">
+            Side Menu
+         </div>
+         <ul>
+            <li class="active"><a href="#">Dashboard</a></li>
+            <li>
+               <a href="#" class="feat-btn">Features
+               <span class="fas fa-caret-down first"></span>
+               </a>
+               <ul class="feat-show">
+                  <li><a href="#">Pages</a></li>
+                  <li><a href="#">Elements</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#" class="serv-btn">Services
+               <span class="fas fa-caret-down second"></span>
+               </a>
+               <ul class="serv-show">
+                  <li><a href="#">App Design</a></li>
+                  <li><a href="#">Web Design</a></li>
+               </ul>
+            </li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Shortcuts</a></li>
+            <li><a href="#">Feedback</a></li>
+         </ul>
+      </nav>
+
+
+      
+      <script>
+         $('.btn').click(function(){
+           $(this).toggleClass("move");
+            $('.sidebar').toggleClass("appear");
+         });
+         $('.feat-btn').click(function(){
+             $('nav ul .feat-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
+           });
+             $('.serv-btn').click(function(){
+             $('nav ul .serv-show').toggleClass("show1");
+             $('nav ul .second').toggleClass("rotate");
+           });$
+           $('nav ul li').click(function(){
+             $(this).addClass("active").siblings().removeClass("active");
+           });
+          
+      </script>
+		
+	</div>
+
+	
+<!--FEATURES-->
+<section class="features">
+	<div class="heading2">
+		<p>FEATURES</p>
+		<h1>Why Choose Us</h1>
+	</div>
+
+	<div class="featurebox">
+		<div class="heading3">
+
+			<h3>Experienced Staff</h3>
+
+			<i class="fas fa-laptop"></i>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing  Tempore non praesentium <br> Lorem ipsum dolor sit amet consectetur adipisicing <br> Quaerat illum labore itaque est vero!</p>
+
+
+			<h3>Experienced Staff</h3>
+			
+			<i class="fas fa-laptop"></i>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing  Tempore non praesentium <br> Lorem ipsum dolor sit amet consectet
+
+
+			<h3>Experienced Staff</h3>
+			
+			<i class="fas fa-laptop"></i>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing  Tempore non praesentium <br> Lorem ipsum dolor sit amet consectetur adipisicing <br> Quaerat illum labore itaque est vero!</p>
+		</div>
+
+
+		<div class="features-img">
+			<img src="image/employe.avif" alt="">
+		</div>
+	</div>
+
+</section>
+
+<!--SERVICES-->
+<section class="services"> 
+	<div class="heading2">
+		<p>SERVICES</p>
+		<h1>We Provide Better</h1>
+	</div>
+	<div class="service-box">
+		<div class="single-service">
+			<img src="image/tech.jpg" alt="">
+			<div class="overlay"></div>
+		</div>
+		<div class="single-service">
+			<img src="image/nature5.jpg" alt="">
+			<div class="overlay"></div>
+		</div>
+		<div class="single-service">
+			<img src="image/img5.jpg" alt="">
+			<div class="overlay"></div>
+		</div>
+		<div class="single-service">
+			<img src="image/nature2.jpg" alt="">
+			<div class="overlay"></div>
+		</div>
+			   
+		
+	</div>
+</section>
+
+
+
+	
+</body>
+</html>

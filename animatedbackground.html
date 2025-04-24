@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> MY WEB PAGE </title>
+<style>
+body{
+background-color: rgba(27,31,34,0.85);
+}
+h1{
+font-size: 2.1REM;
+line-height: 1.4;
+letter-spacing: 0.5EM;
+text-align: center;
+color: white;
+margin-top: 50px;
+}
+
+	
+.MAINDIV{
+width: 70%;
+height: 400PX;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+background-image: URL(SLIDING.JPG);
+background-size: 100% 100%;
+box-shadow: 1PX 2PX 10PX 10PX white;
+animation:slider 9S infinite linear;
+}
+
+@keyframes slider{
+	0%{background-image: URL(SLIDE2.JPG); background-size: 100% 100%;
+	}
+	35%{background-image: URL(SLIDE3.JPG);background-size: 100% 100%;
+	}
+	75%{background-image: URL(SLIDE4.JPG);background-size: 100% 100%;
+	}
+
+}
+
+</STYLE>
+
+</HEAD>
+<BODY>
+	 <H1> CSS SLIDER ANIMATION></H1> 
+
+
+<DIV CLASS="MAINDIV">
+
+
+
+
+
+</body>
+</HTML>
